@@ -1,0 +1,9 @@
+{
+  "name": "medical-shop-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Medical shop demo with a small built-in backend server and JSON API.",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Shop | Medicines</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav-shell" aria-label="Primary">
+            <a class="brand-mark" href="index.html" aria-label="Medical shop home"></a>
+            <div class="nav-tabs">
+                <a class="nav-tab" href="index.html" aria-label="Home">
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M3 10.5L12 3l9 7.5"></path>
+                        <path d="M5.5 9.5V21h13V9.5"></path>
+                    </svg>
+                    <span class="sr-only">Home</span>
+                </a>
+                <a class="nav-tab" href="healthcare.html" aria-label="Healthcare">
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M12 21s-6.5-4.35-8.55-8.1C1.5 9.34 3.2 5.5 7 5.5c2.15 0 3.55 1.2 5 3 1.45-1.8 2.85-3 5-3 3.8 0 5.5 3.84 3.55 7.4C18.5 16.65 12 21 12 21z"></path>
+                        <path d="M12 8.4v4.8"></path>
+                        <path d="M9.6 10.8h4.8"></path>
+                    </svg>
+                    <span class="sr-only">Healthcare</span>
+                </a>
+                <a class="nav-tab is-active" href="medicines.html" aria-label="Medicines">
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M8.5 7.5l8 8"></path>
+                        <path d="M14.5 5.5l4 4a2.83 2.83 0 010 4l-5 5a2.83 2.83 0 01-4 0l-4-4a2.83 2.83 0 010-4l5-5a2.83 2.83 0 014 0z"></path>
+                    </svg>
+                    <span class="sr-only">Medicines</span>
+                </a>
+                <a class="nav-tab" href="offers.html" aria-label="Offers">
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M7 7h10l4 4-10 10-8-8L13 3z"></path>
+                        <path d="M14.5 8.5h.01"></path>
+                    </svg>
+                    <span class="sr-only">Offers</span>
+                </a>
+                <a class="nav-tab" href="contact.html" aria-label="Contact">
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M5 4h14a2 2 0 012 2v12a2 2 0 01-2 2H5a2 2 0 01-2-2V6a2 2 0 012-2z"></path>
+                        <path d="M3 7l9 6 9-6"></path>
+                    </svg>
+                    <span class="sr-only">Contact</span>
+                </a><a class="nav-tab" href="admin.html" aria-label="Admin">
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M4 19h16"></path>
+                        <path d="M7 16V10"></path>
+                        <path d="M12 16V5"></path>
+                        <path d="M17 16v-3"></path>
+                    </svg>
+                    <span class="sr-only">Admin</span>
+                </a>
+                 <a class="nav-tab nav-tab-cart" href="login.html" aria-label="Login">
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    <span class="sr-only">Login</span>
+                </a>
+                <a class="nav-tab nav-tab-cart" href="cart.html" aria-label="Cart">
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <circle cx="9" cy="19" r="1.5"></circle>
+                        <circle cx="17" cy="19" r="1.5"></circle>
+                        <path d="M3 5h2l2.1 9.2a1 1 0 0 0 .98.8H18a1 1 0 0 0 .97-.76L21 8H7"></path>
+                    </svg>
+                    <span class="nav-cart-badge" data-cart-badge>0</span>
+                    <span class="sr-only">Cart</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="page-stage page-stage-catalog">
+        <section class="catalog-hero">
+            <div class="section-intro">
+                <p class="eyebrow">Medicines</p>
+                <h1>Explore the full medicine catalog with filters, sorting, and quick add to cart.</h1>
+                <p>
+                    Browse daily-use tablets, syrups, wellness support, and first-aid items from one catalog page that
+                    works like the real shopping center of the site.
+                </p>
+            </div>
+            <div class="catalog-hero-cards">
+                <article class="cart-summary-card">
+                    <strong>12</strong>
+                    <span>Medicine products</span>
+                </article>
+                <article class="cart-summary-card">
+                    <strong>6+</strong>
+                    <span>Popular categories</span>
+                </article>
+                <article class="cart-summary-card">
+                    <strong>Live cart</strong>
+                    <span>Add products from anywhere</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="catalog-shell" id="catalog-browser" aria-labelledby="catalog-browser-title">
+            <div class="catalog-shell-head">
+                <div class="section-intro">
+                    <p class="eyebrow">Browse Catalog</p>
+                    <h2 id="catalog-browser-title">Filter products by search, category, and sort order.</h2>
+                </div>
+                <a class="hero-button hero-button-secondary" href="offers.html">See Offer Page</a>
+            </div>
+
+            <div class="catalog-toolbar">
+                <label class="field">
+                    <span>Search medicine</span>
+                    <input type="search" placeholder="Search by medicine name" data-catalog-search>
+                </label>
+                <label class="field">
+                    <span>Category</span>
+                    <select data-catalog-category>
+                        <option value="All">All categories</option>
+                    </select>
+                </label>
+                <label class="field">
+                    <span>Sort by</span>
+                    <select data-catalog-sort>
+                        <option value="featured">Featured first</option>
+                        <option value="price-low">Price: low to high</option>
+                        <option value="price-high">Price: high to low</option>
+                        <option value="name">Name: A to Z</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="catalog-summary-bar">
+                <p class="search-result-note" data-catalog-status role="status" aria-live="polite">Showing all medicines.</p>
+                <div class="catalog-inline-links">
+                    <a href="healthcare.html">Healthcare support</a>
+                    <a href="cart.html">Open cart</a>
+                </div>
+            </div>
+
+            <div class="medicine-card-grid" data-catalog-grid></div>
+            <div class="search-empty-state" data-catalog-empty hidden>
+                <p>No medicines match this filter. Try another category or search word.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer-shell">
+            <div class="site-footer-brand">
+                <a class="footer-brand" href="index.html">MediCare Shop</a>
+                <p>Trusted medicines, healthcare support, offers, and quick order help from one simple medical shop website.</p>
+            </div>
+            <div class="site-footer-links">
+                <div class="footer-column">
+                    <h2>Shop</h2>
+                    <a href="medicines.html">Medicines</a>
+                    <a href="healthcare.html">Healthcare</a>
+                    <a href="offers.html">Offers</a>
+                </div>
+                <div class="footer-column">
+                    <h2>Support</h2><a href="admin.html">Admin</a>
+                    <a href="cart.html">Cart</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="contact.html?topic=Refill%20Support#contact-form">Refill Help</a>
+                </div>
+                <div class="footer-column">
+                    <h2>Store Info</h2>
+                    <p>Mon to Sun</p>
+                    <p>8:00 AM - 10:00 PM</p>
+                    <a href="tel:+919876543210">+91 98765 43210</a>
+                </div>
+            </div>
+        </div>
+        <div class="site-footer-bottom">
+           <p>&copy; 2026 MediCare Shop. creating by Jitu Thakor</p>
+        </div>
+    </footer>
+
+    <script src="assets/main.js" defer></script>
+</body>
+</html>
